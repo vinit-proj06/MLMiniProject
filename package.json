@@ -1,0 +1,11 @@
+{
+  "name": "mobile-price-mini-project",
+  "private": true,
+  "description": "Optional browser tests; the app itself needs only Python.",
+  "scripts": {
+    "test:ui": "node tests/browser_smoke.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

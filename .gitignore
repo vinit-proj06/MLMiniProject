@@ -1,0 +1,29 @@
+# Local environments and dependencies
+.venv/
+venv/
+node_modules/
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+test-results/
+.coverage
+htmlcov/
+
+# Rebuild these locally with: python -m ml.train
+models/*.joblib
+models/metrics.json
+models/split.json
+data/mobile_clean.csv
+data/*.zip
+
+# Local secrets and editor/OS settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

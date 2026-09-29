@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#173f35" />
+    <meta
+      name="description"
+      content="Explore mobile price range prediction with Random Forest and Support Vector Machine. A hands-on machine learning mini project."
+    />
+    <title>MobileIQ — Mobile Price Prediction</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23173f35'/%3E%3Crect x='11' y='6' width='11' height='20' rx='3' fill='none' stroke='%23d8ef80' stroke-width='2'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#/" aria-label="MobileIQ home"
+          ><span class="brand-symbol" aria-hidden="true"
+            ><span></span><span></span><span></span><span></span></span
+          >Mobile<span class="brand-iq">IQ</span
+          ><span class="brand-dot">.</span></a
+        >
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="main-navigation"
+        >
+          <span></span><span></span>
+        </button>
+        <nav
+          id="main-navigation"
+          class="main-navigation"
+          aria-label="Main navigation"
+        >
+          <a href="#/" data-route="/">Overview</a>
+          <a href="#/predict" data-route="/predict">Predict a price</a>
+          <a href="#/models" data-route="/models">Model insights</a>
+          <a href="#/compare" data-route="/compare">Compare mobiles</a>
+        </nav>
+        <a class="header-cta" href="#/predict"
+          >Try it out <span aria-hidden="true">↗</span></a
+        >
+      </div>
+    </header>
+    <main id="main-content" tabindex="-1">
+      <div class="initial-loading">
+        <span class="spinner"></span>
+        <p>Getting things ready…</p>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="brand footer-brand" href="#/"
+          >Mobile<span class="brand-iq">IQ</span
+          ><span class="brand-dot">.</span></a
+        >
+        <p>A little data. A smarter perspective.</p>
+        <span
+          >ML MINI PROJECT <span class="footer-dot">·</span> PYTHON +
+          SCIKIT-LEARN</span
+        >
+      </div>
+      <div class="footer-note">
+        Predictions represent relative price categories, not actual retail
+        prices.
+      </div>
+    </footer>
+    <div
+      id="live-status"
+      class="sr-only"
+      role="status"
+      aria-live="polite"
+    ></div>
+  </body>
+</html>
